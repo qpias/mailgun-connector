@@ -1,3 +1,3 @@
 <!-- BEGIN_INCLUDE(mailgun:my-processor) -->
-    <mailgun:my-processor content="#[map-payload:content]" />
+     <mailgun:my-processor from="your@mail.address" to="receiver@mail.address" subject="hello" message="insert-your-message-here" />
 <!-- END_INCLUDE(mailgun:my-processor) -->
