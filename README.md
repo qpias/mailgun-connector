@@ -10,3 +10,4 @@ Simple Mule ESB connector for Mailgun (https://mailgun.com) REST API. Currently 
         <mailgun:my-processor from="your@mail.address" to="receiver@mail.address" subject="hello" message="insert-your-message-here" />
     </flow>
 
+TODO: more complex messages and multiple receivers, retrieving emails, etc
